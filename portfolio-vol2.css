@@ -1,0 +1,292 @@
+* {
+	box-sizing: border-box;
+}
+
+nav {
+	position: fixed;
+	background-color: #000000;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	list-style: none;
+}
+
+nav ul li a {
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: "Saira Stencil One";
+	font-size: 18px;
+	color: #ffffe0;
+	text-decoration: none;
+}
+
+body {
+	background-color: ;
+}
+.middle {
+	width: 100%;
+	min-height: 500px;
+	margin-top: 0;
+	padding-top: 30px;
+	background-image: url("hima2.jpg");
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+
+.intro {
+	color: #ffffe0;
+	text-align: center;
+	line-height: 2;
+	margin-top: 20px;
+	margin: 12%;
+	padding: 0;
+	font-family: "Saira Stencil One";
+	font-size: 20px;
+	transition: 1s;
+	z-index: 0;
+	border: 1px solid transparent;
+}
+
+.intro::before, .intro::after {
+	position: absolute;
+	background: #eee;
+	z-index: -1;
+	transition: 1s;
+  }
+  
+  .intro:hover::before {
+	width: 0px;
+	background: #fff;
+  }
+
+  .intro:hover {
+	background: #e25b5b;
+	border: 1px solid #ffffe0;
+  }
+
+    
+  .intro:hover::after {
+	height: 0px;
+	background: #fff;
+  }
+
+.container {
+	text-align: center;
+}
+
+.rows h2 {
+	font-family: "Saira Stencil One";
+	font-size: 3rem;
+	color: #000000;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#about h4 {
+	text-align: center;
+	font-family: "Saira Stencil One";
+}
+
+#about {
+	text-align: center;
+	margin: 7%;
+	box-shadow: 0 10px 20px #999898cc;
+	transition: 1s;
+	max-width: 90vw;
+}
+
+#about:hover {
+	box-shadow: 0 10px 20px #000000;
+}
+
+#about img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-top: 30px;
+}
+
+#about p {
+	line-height: 25px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 30px;
+	font-family: 'Roboto';
+	text-align: justify;
+}
+
+#about .firstLetter {
+	font-size: 75px;
+	float: left;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+
+#about hr {
+	width: 20%;
+}
+
+.container hr {
+	width: 0%;
+	min-width: 20%;
+	max-width: 100%;
+	margin: 0 auto;
+	border: none;
+	border-bottom: 1px solid #666;
+	position: relative;
+	transition: box-shadow 200ms ease-in-out;
+	box-shadow: 0px 0px 0px 0px #f9f9f9;
+  }
+
+.project-container {
+	display: grid;
+	place-items: center;
+	margin: 7%;
+}
+
+#projects {
+  background:#fff;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 10px 20px #999898cc;
+  transition: 1s;
+  text-align: center;
+  line-height: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 30px;
+  font-family: 'Roboto';
+}
+
+#projects:hover {
+	box-shadow: 0 10px 20px #000000;
+}
+
+.img-container {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 1.5rem;
+  }
+
+  #project-img {
+	width: 100%;
+	display: block;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+	position: relative;
+  }
+
+  #name {
+	  margin-bottom: 0.25rem;
+  }
+
+  #category {
+	margin-bottom: 0.5rem;
+	text-transform: uppercase;
+	font-size: 0.85rem;
+  }
+
+  #info {
+	margin-bottom: 0.75rem;
+  }
+
+  .prev-btn,
+  .next-btn {
+	color: #000000;
+	font-size: 1.25rem;
+	background: transparent;
+	border-color: transparent;
+	margin: 0 0.5rem;
+	transition: 1s;
+	cursor: pointer;
+  }
+  .prev-btn:hover,
+  .next-btn:hover {
+	color: #e25b5b;
+  }
+
+#contact {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	background-color: #000000;
+	background-size: 100% 100%;
+	color: #ffffe0;
+	font-family: "Saira Stencil One";
+}
+
+#contact ul {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	color: #ffffe0;
+}
+
+/* #contact .fa {
+	padding: 10px;
+	font-size: 40px;
+	width: 90px;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffe0;
+	transition: 1s;
+} */
+
+/* .fa:hover {
+	opacity: 0.7;
+	transition: 1s;
+} */
+
+@media screen and (max-width: 600px) {
+	
+	.columns {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	
+	.middle h1 {
+		margin-right:30px;
+		margin-left: 30px;
+		font-size: 18px;
+	}
+	
+	footer {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+
+/* #projects img {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: flex-start;
+	margin-left: 170px;
+	margin-top: 50px;
+	border-radius: 5%;
+	transform: translateX(-50%) translateY(-50%);
+	animation-duration: 1s;
+	animation-fill-mode: both;
+	animation-name: rotate;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes rotate {
+	from {transform: rotate(0deg)}
+	to {transform: rotate(360deg)}
+} */
