@@ -26,9 +26,6 @@ nav ul li a {
 	text-decoration: none;
 }
 
-body {
-	background-color: ;
-}
 .middle {
 	width: 100%;
 	min-height: 500px;
@@ -40,7 +37,6 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-
 
 .intro {
 	color: #ffffe0;
@@ -73,7 +69,6 @@ body {
 	border: 1px solid #ffffe0;
   }
 
-    
   .intro:hover::after {
 	height: 0px;
 	background: #fff;
@@ -138,15 +133,7 @@ body {
 }
 
 .container hr {
-	width: 0%;
-	min-width: 20%;
-	max-width: 100%;
-	margin: 0 auto;
-	border: none;
-	border-bottom: 1px solid #666;
-	position: relative;
-	transition: box-shadow 200ms ease-in-out;
-	box-shadow: 0px 0px 0px 0px #f9f9f9;
+	width: 60%;
   }
 
 .project-container {
@@ -252,41 +239,34 @@ body {
 } */
 
 @media screen and (max-width: 600px) {
-	
-	.columns {
-		display: grid;
-		grid-template-columns: 1fr;
-	}
-	
-	.middle h1 {
-		margin-right:30px;
-		margin-left: 30px;
-		font-size: 18px;
-	}
-	
-	footer {
+	nav ul {
 		display: flex;
 		flex-direction: column;
+		justify-content: space-around;
+		list-style: none;
+	}
+	nav ul li a {
+		padding-left: 30px;
+		padding-right: 30px;
+		font-family: "Saira Stencil One";
+		font-size: 13px;
+		color: #ffffe0;
+		text-decoration: none;
+	}
+	.middle {
+		width: 100%;
+		min-height: 500px;
+		margin-top: 0;
+		padding-top: 30px;
+		background-color: #e25b5b;
+		/* background-size: 100% 100%; */
+		background-position: center;
+		background-attachment: fixed;
+		/* background-repeat: no-repeat; */
+	}
+	.intro {
+		margin-right:30px;
+		margin-left: 30px;
+		font-size: 13px;
 	}
 }
-
-
-/* #projects img {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	align-content: flex-start;
-	margin-left: 170px;
-	margin-top: 50px;
-	border-radius: 5%;
-	transform: translateX(-50%) translateY(-50%);
-	animation-duration: 1s;
-	animation-fill-mode: both;
-	animation-name: rotate;
-	animation-timing-function: ease-in-out;
-}
-
-@keyframes rotate {
-	from {transform: rotate(0deg)}
-	to {transform: rotate(360deg)}
-} */
