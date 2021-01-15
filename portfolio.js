@@ -6,7 +6,7 @@ const projects = [
         name: "Collection app",
         link: "https://bit.ly/2IVVx1w",
         category: "Individual project",
-        img: "ghibli.jpg",
+        img: "images/ghibli.jpg",
         text: "An individual project - a collection app containing my favourite Studio Ghibli creatures. Built using PHP, MySQL, HTML & CSS."
     },
     {
@@ -14,7 +14,7 @@ const projects = [
         name: "Thump a Trump",
         link: "https://bit.ly/39caJ5T",
         category: "Group project",
-        img: "trump.jpg",
+        img: "images/trump.jpg",
         text: "A JavaScript game based on the classic Whack-a-mole, built with my teammates at iO Academy. I was mostly involved in working on functionality - randomising, setting item visibility and countdown pop - up (JavaScript, HTML & CSS). I am very proud to have been a part of this particular project, so if you would like to have a go (it's not as easy as it seems!), you are more than welcome to do so here: https://bit.ly/36XkzFY"
     },
     {
@@ -22,7 +22,7 @@ const projects = [
         name: "Solar system",
         link: "https://bit.ly/3oQO6sG",
         category: "Individual project",
-        img: "solar.jpg",
+        img: "images/solar.jpg",
         text: "Simple solar system built with SVG and CSS animation."
     },
     {
@@ -30,7 +30,7 @@ const projects = [
         name: "Analog clock",
         link: "https://bit.ly/3qsT3bv",
         category: "Individual project",
-        img: "clock.jpg",
+        img: "images/clock.jpg",
         text: "Analog JavaScript + CSS clock."
     },
     {
