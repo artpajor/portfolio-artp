@@ -39,7 +39,7 @@ const projects = [
         link: "https://bit.ly/3kS4ypK",
         category: "Group project",
         img: "images/aptitude-test.png",
-        text: "Another team project - iO Academy aptitude test. This time we were working on a legacy code, which was an amazing learning experience, considering the quality of the code! It definitely taught me the importance of clean code, consistency and good organisation of my own projects. Here I was mainly involved in working on functionality (TypeScript) that will prevent the user f rom cheating while taking the test, which includes a warning message, ending the test automatically in case of clicking away and setting the score to 0."
+        text: "Another team project - improving iO Academy aptitude test. This time we were working on a legacy code, which was an amazing learning experience, considering the quality of the code! It definitely taught me the importance of clean code, consistency and good organisation of my own projects. Here I was mainly involved in working on functionality (TypeScript) that will prevent the user f rom cheating while taking the test, which includes a warning message, ending the test automatically in case of clicking away and setting the score to 0."
     },
     {
         id: 6,
@@ -48,6 +48,14 @@ const projects = [
         category: "Group project",
         img: "images/the-real-mvp.png",
         text: "Team project focused on OOP. The requirements were to display a JSON le containing sport teams, originally stored in a database, on a front end. In this project I was involved in writing the database query, inserting data into the database and navigation (PHP, HTML & CSS)."
+    },
+    {
+        id: 7,
+        name: "Academy Portal",
+        link: "https://bit.ly/2XOMoMf",
+        category: "Group project",
+        img: "images/academy.png",
+        text: "In this group project we were exercising our knewly obtained knowledge about Slim framework. This was based on another legacy code, already existing iO Academy portal. I was mainly responsible for creating a public user page for onboarding students."
     }
 
 ]
