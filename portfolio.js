@@ -38,7 +38,7 @@ const projects = [
         name: "Aptitude test",
         link: "https://bit.ly/3kS4ypK",
         category: "Group project",
-        img: "",
+        img: "images/aptitude-test.png",
         text: "Another team project - iO Academy aptitude test. This time we were working on a legacy code, which was an amazing learning experience, considering the quality of the code! It definitely taught me the importance of clean code, consistency and good organisation of my own projects. Here I was mainly involved in working on functionality (TypeScript) that will prevent the user f rom cheating while taking the test, which includes a warning message, ending the test automatically in case of clicking away and setting the score to 0."
     },
     {
@@ -46,7 +46,7 @@ const projects = [
         name: "The Real MVP",
         link: "https://bit.ly/370KGf0",
         category: "Group project",
-        img: "",
+        img: "images/the-real-mvp.png",
         text: "Team project focused on OOP. The requirements were to display a JSON le containing sport teams, originally stored in a database, on a front end. In this project I was involved in writing the database query, inserting data into the database and navigation (PHP, HTML & CSS)."
     }
 
