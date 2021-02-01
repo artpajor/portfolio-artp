@@ -47,7 +47,7 @@ const projects = [
         link: "https://bit.ly/370KGf0",
         category: "Group project",
         img: "images/the-real-mvp.png",
-        text: "Team project focused on OOP. The requirements were to display a JSON le containing sport teams, originally stored in a database, on a front end. In this project I was involved in writing the database query, inserting data into the database and navigation (PHP, HTML & CSS)."
+        text: "Team project focused on OOP. The requirements were to display a JSON file containing sport teams, originally stored in a database, on a front end. In this project I was involved in writing the database query, inserting data into the database and navigation (PHP, HTML & CSS)."
     },
     {
         id: 7,
