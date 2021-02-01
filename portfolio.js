@@ -39,7 +39,7 @@ const projects = [
         link: "https://bit.ly/3kS4ypK",
         category: "Group project",
         img: "images/aptitude-test.png",
-        text: "Another team project - improving iO Academy aptitude test. This time we were working on a legacy code, which was an amazing learning experience, considering the quality of the code! It definitely taught me the importance of clean code, consistency and good organisation of my own projects. Here I was mainly involved in working on functionality (TypeScript) that will prevent the user f rom cheating while taking the test, which includes a warning message, ending the test automatically in case of clicking away and setting the score to 0."
+        text: "Another team project - improving iO Academy aptitude test. This time we were working on a legacy code, which was an amazing learning experience, considering the quality of the code! It definitely taught me the importance of clean code, consistency and good organisation of my own projects. Here I was mainly involved in working on functionality (TypeScript) that will prevent the user from cheating while taking the test, which includes a warning message, ending the test automatically in case of clicking away and setting the score to 0."
     },
     {
         id: 6,
